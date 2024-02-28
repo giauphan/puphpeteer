@@ -1,5 +1,5 @@
 {
-    "name": "nesk/puphpeteer",
+    "name": "giauphan/puphpeteer",
     "description": "A Puppeteer bridge for PHP, supporting the entire API. Fix trouble when install ",
     "keywords": [
         "php",
