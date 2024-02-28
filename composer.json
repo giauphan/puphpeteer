@@ -1,6 +1,6 @@
 {
     "name": "nesk/puphpeteer",
-    "description": "A Puppeteer bridge for PHP, supporting the entire API.",
+    "description": "A Puppeteer bridge for PHP, supporting the entire API. Fix trouble when install ",
     "keywords": [
         "php",
         "puppeteer",
@@ -14,14 +14,14 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Johann Pardanaud",
-            "email": "pardanaud.j@gmail.com"
+            "name": "Giau Phan",
+            "email": "giauphan012@gmail.com"
         }
     ],
     "require": {
         "php": ">=7.3",
-        "nesk/rialto": "^1.2.0",
-        "psr/log": "^1.0",
+        "nesk/rialto": "*",
+        "psr/log": "*",
         "vierbergenlars/php-semver": "^3.0.2"
     },
     "require-dev": {
