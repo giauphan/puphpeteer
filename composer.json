@@ -19,8 +19,8 @@
         }
     ],
     "require": {
-        "php": ">=7.3",
-        "nesk/rialto": "*",
+        "php": ">=8.0",
+        "giauphan/rialto": "*",
         "psr/log": "*",
         "vierbergenlars/php-semver": "^3.0.2"
     },
