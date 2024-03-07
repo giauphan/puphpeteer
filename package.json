@@ -19,11 +19,11 @@
   "license": "MIT",
   "repository": "github:nesk/puphpeteer",
   "engines": {
-    "node": ">=9.0.0"
+    "node": ">=16.0.0"
   },
   "dependencies": {
     "@nesk/rialto": "^1.2.1",
-    "puppeteer": "~5.5.0"
+    "puppeteer": "*"
   },
   "devDependencies": {
     "@types/yargs": "^15.0.10",
