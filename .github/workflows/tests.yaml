@@ -9,11 +9,15 @@ jobs:
         composer-flags: [null, --prefer-lowest]
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v4
+        with:
+            node-version: 21.0.0
       - uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php-version }}
           coverage: none
       - run: composer update ${{ matrix.composer-flags }} --no-interaction --no-progress --prefer-dist --ansi
       - run: npm install
+      - name: Build assets
+        run: npm run build
       - run: ./vendor/bin/phpunit --color=always
